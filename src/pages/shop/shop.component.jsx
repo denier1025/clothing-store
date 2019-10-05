@@ -4,7 +4,7 @@ import collections from "./shop.data";
 
 import CollectionPreview from "../../components/collection-preview/collection-preview.component";
 
-class ShopPage extends Component {
+class Shop extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,4 +23,4 @@ class ShopPage extends Component {
   }
 }
 
-export default ShopPage;
+export default Shop;
